@@ -1,0 +1,11 @@
+{
+    "type": "postgres",
+      "host": "localhost",
+      "port": 5437,
+      "username": "root",
+      "password": "root",
+      "database": "root",
+      "entities": ["dist/**/*.entity{.ts,.js}"],
+      "cli":{"migrationsDir":"./src/db/migrations"},
+      "synchronize": true
+}
